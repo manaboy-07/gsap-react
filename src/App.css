@@ -1,9 +1,19 @@
-* {
-  opacity: 0.2;
-}
 .logo {
   width: 200px;
   height: 200px;
+}
+.circles {
+  border-radius: 100%;
+  height: 75px;
+  width: 75px;
+  background-color: rgb(237, 162, 14);
+  margin: 5px;
+}
+.circles-red {
+  background-color: red;
+}
+.circles-blue {
+  background-color: blue;
 }
 .circle {
   width: 150px;
@@ -41,7 +51,15 @@
 .gsap-edit {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
   align-items: center;
   text-align: center;
   margin-top: 20px;
+}
+.App-logo {
+  opacity: 0;
+}
+p {
+  opacity: 0;
 }

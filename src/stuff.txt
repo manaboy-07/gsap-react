@@ -1,0 +1,3 @@
+CHECK START.jsx
+That is our first animation,
+you can also check useGSAP hook on yt to know how to use scope
