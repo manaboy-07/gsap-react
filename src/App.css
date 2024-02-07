@@ -12,6 +12,9 @@
 .circles-red {
   background-color: red;
 }
+.App-circle {
+  visibility: hidden;
+}
 .circles-blue {
   background-color: blue;
 }
