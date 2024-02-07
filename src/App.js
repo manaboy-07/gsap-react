@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import "./App.css";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import Start from "./start";
+import Start from "./Start";
 function App() {
   const boxRef = useRef(null);
   const boxShift = useRef(null);
@@ -62,19 +62,19 @@ function App() {
         style={{ width: "100px", height: "100px", background: "blue" }}
       >
         {/* Your component content */}
-        <div ref={container} className="container">
+        {/* <div ref={container} className="container">
           <div className="circle">1</div>
           <div className="circle">2</div>
           <div className="circle">3</div>
           <div className="circle">4</div>
-        </div>
+        </div> */}
         {/* Using dependencies or state */}
-        <div className="boxshift" ref={boxShift}>
+        {/* <div className="boxshift" ref={boxShift}>
           <button onClick={() => setEndx(randomX())}>
             Pass in a random varable
           </button>
           <div className="boxX">{endx}</div>
-        </div>
+        </div> */}
       </div>
       <div>
         <Start />
