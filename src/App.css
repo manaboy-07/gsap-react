@@ -97,3 +97,22 @@ p {
   position: absolute;
   width: 144px;
 } */
+
+.boxes:nth-of-type(odd) {
+  background-color: gray;
+}
+.boxes:nth-of-type(even) {
+  background-color: plum;
+}
+.boxes {
+  width: 100px;
+  height: 100px;
+  margin: 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mybox {
+  display: flex;
+  justify-content: center;
+}

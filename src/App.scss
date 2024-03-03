@@ -26,14 +26,15 @@
   &:after {
     position: absolute;
     content: "";
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 20%;
     background: #fff;
     top: 0;
     right: 0;
   }
   img {
     width: 1440px;
+    height: 30vh;
     margin: 0 auto;
   }
 }
